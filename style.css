@@ -39,6 +39,14 @@ navbar ul li a {
 
 }
 
+.left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top : 4px;
+    box-shadow: rgb(0, 255, 255) 0px 0px 20px;
+}
+
 navbar ul li a:hover {
     color: #9232f2;
     font-size: 1.02rem;
@@ -48,8 +56,12 @@ navbar ul li a:hover {
 
 div.left {
     color: black;
-    font-size: 1.5rem;
+    font-size: 0.87rem;
+    display : flex;
+    align-items: center;
+    gap: 15px;
 }
+
 
 .first {
     color: black;
@@ -57,7 +69,7 @@ div.left {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 4vw 6vw;
+    margin: 5vw 6vw;
 }
 .first .button1 {
     display: flex;
@@ -153,9 +165,9 @@ hr {
 }
 
 .second .vertical-1 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 80px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -179,13 +191,14 @@ hr {
     margin: 10px 10px;
     /* width: 300px; */
     height: auto;
+    gap: 50px;
     
 }
 
 .second .vertical-2 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 30px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -213,9 +226,9 @@ hr {
 }
 
 .second .vertical-3 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 80px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -239,13 +252,13 @@ hr {
     margin: 10px 10px;
     /* width: 300px; */
     height: auto;
-    
+    gap: 50px;
 }
 
 .second .vertical-4 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 30px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -323,8 +336,8 @@ hr {
 
 .third .vertical-1 .vertical-text {
     margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -348,13 +361,13 @@ hr {
     margin: 10px 10px;
     /* width: 300px; */
     height: auto;
-    
+    gap : 30px;
 }
 
 .third .vertical-2 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 50px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -383,8 +396,8 @@ hr {
 
 .third .vertical-3 .vertical-text {
     margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
@@ -412,9 +425,9 @@ hr {
 }
 
 .third .vertical-4 .vertical-text {
-    margin: 0px 70px;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 0px 50px;
+    text-align:left;
+    font-size: 1.2rem;
     color: black;
     /* justify-content: space-around; */
 }
