@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +11,33 @@
         href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
 </head>
 
 <body>
+    <section id="home">
     <header>
-        <navbar>
+        <nav>
             <div class="left"><a href="https://portfolio-prince-kumar-07.vercel.app/#"><img src="images/Profile.jpeg" alt="Logo"></a><h1>Prince Portfolio</h1></a></div>
             <div class="right">
+                <div class="top-navbar" id="topNavbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+                </div>
             </div>
-        </navbar>
+        </nav>
     </header>
+    
 
     <main>
         <section class="first">
             <div class="leftsection">
                 <div>Hi! My Name is <span style="color: #9232f2;">Prince</span>.</div>
-                <nav></nav>
+                
                 <br>
 
                 <span id="element"></span>
@@ -55,7 +59,22 @@
                 <img src="images/bg.png" alt="prince">
             </div>
         </section>
+        </section>
+
         <hr>
+        <section id="about">
+            
+            <h1>
+                About Me
+            </h1>
+            <br>
+            <br>
+            <br>
+
+            <p class="about">I am a passionate web developer with a strong interest in data structures and algorithms (DSA). I have a solid foundation in web development technologies and enjoy creating dynamic and responsive websites. In addition to my web development skills, I am also dedicated to improving my problem-solving abilities through consistent practice of DSA concepts. I am eager to apply my knowledge and skills to real-world projects and contribute to the tech community.</p>
+        </section>
+        <br>
+        <section id="projects">
         <section class="second">
             <br>
             <h1>
@@ -99,6 +118,7 @@
                 </div>
             </div>
         </section>
+        
         <br>
         <section class="third">
             <br>
@@ -147,6 +167,7 @@
             <br>
 
         </section>
+        </section>
     </main>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script>
@@ -162,6 +183,24 @@
         </div>
         </section>
     </footer>
+    
+            <!-- <div class="bottom-navbar" id="bottomNavbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div> -->
+
+            <div class="bottom-navbar" id="bottomNavbar">
+                <a href="#home" class="nav-link"><i class="fas fa-home"></i></a>
+                <a href="#about" class="nav-link-1"><i class="fas fa-user"></i></a>
+                <a href="#projects" class="nav-link"><i class="fas fa-code"></i></a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i></a>
+            </div>
+
+    <script src="react.js"></script>
 </body>
+
+
 
 </html>
