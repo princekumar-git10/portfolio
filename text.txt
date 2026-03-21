@@ -1,0 +1,29 @@
+💻 Passionate Developer | 🚀 Tech Enthusiast | 📍 New Delhi, India
+
+Hello! 👋 I am a Computer Science enthusiast who loves building efficient, scalable, and user-friendly applications. I enjoy turning ideas into reality through code and constantly exploring new technologies to grow as a developer.
+
+🎓 I am deeply interested in Web Development and Software Development, where I focus on creating solutions that solve real-world problems.
+
+🌱 Currently, I am learning and improving my skills in:
+⚛️ React
+🟢 Node.js
+🧠 Data Structures & Algorithms
+
+🔭 I am actively working on improving my problem-solving skills and strengthening my core programming concepts.
+⚡ My goal is to become a skilled Full Stack Developer and build complete end-to-end applications with clean design and great user experience.
+
+🛠️ Tech Stack
+💡 Languages: Python, C++, C
+🎨 Frontend: HTML, CSS, React
+⚙️ Backend: Node.js, Express.js
+🗄️ Database: MySQL, MongoDB
+🧰 Tools: Git, GitHub, VS Code
+
+✅ What I Bring
+✨ Strong problem-solving mindset
+📚 Continuous learner with growth mindset
+⚡ Quick adaptability to new technologies
+🧼 Clean and maintainable code practices
+
+📫 Let's Connect
+🤝 I’m always open to learning opportunities, collaborations, and exciting projects. Let’s build something amazing together! 🚀

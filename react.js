@@ -25,3 +25,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+// Function to fetch the text and put it in the div
+async function loadMyText() {
+  try {
+    // Fetch the local text file
+    const response = await fetch('text.txt');
+
+    // Convert the response to plain text
+    const data = await response.text();
+
+    // Find your div by ID and insert the text
+    document.getElementById('text').innerText = data;
+  } catch (error) {
+    console.error('Error loading the text file:', error);
+    document.getElementById('text').innerText = 'Failed to load content.';
+  }
+}
+
+// Run the function when the page is ready
+window.addEventListener('DOMContentLoaded', loadMyText);
