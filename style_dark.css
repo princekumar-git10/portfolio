@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: rgb(0, 255, 255);
+    background-color: black;
     color: white;
     font-family: 'Google Sans', sans-serif;
 }
@@ -18,11 +18,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background-color: #eef134;
+    background-color: #51514f;
     overflow: hidden;
     border-radius: 30px;
     margin: 3.01%;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #fffffc 0px 0px 10px;
 }
 
 nav ul {
@@ -36,7 +36,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+
+    /* margin: 0 15px; */
+    color: rgb(247, 243, 243);
     font-weight: 500;
 
 }
@@ -46,18 +48,17 @@ nav ul li a {
     height: 40px;
     border-radius: 50%;
     margin-top: 4px;
-    box-shadow: rgb(0, 255, 255) 0px 0px 20px;
 }
 
 nav ul li a:hover {
-    color: #9232f2;
+    color: #938f97;
     /* font-size: 1.02rem;
     transition: 0.3s; */
 
 }
 
 div.left {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 0.87rem;
     display: flex;
     align-items: center;
@@ -69,7 +70,7 @@ div.left {
 #about {
     max-width: 87vw;
     margin: auto;
-    background-color: rgb(96, 223, 183);
+    background-color: #51514f;
 
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
@@ -77,16 +78,16 @@ div.left {
     border-bottom-right-radius: 70px;
     padding: 60px 20px;
     margin-top: 70px;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 20px;
 }
 
 #about h1 {
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin: 0px 30px;
-    text-shadow: #313129 0px 0px 10px;
+    text-shadow: #ffffff 0px 0px 10px;
     box-shadow: #313129 0px 0px 10px;
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(110, 125, 125);
 
     border-radius: 80px;
     padding: 10px;
@@ -97,13 +98,19 @@ div.left {
     margin: 20px 50px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
+}
+
+#about #text {
+    font-size: 1.2rem;
+    color: rgb(255, 242, 242);
+    margin: 20px 50px;
 }
 
 
 .first {
-    color: black;
+    color: rgb(245, 240, 240);
     /* width: 100%; */
     display: flex;
     justify-content: space-around;
@@ -117,21 +124,21 @@ div.left {
 }
 
 .first .button1 a:hover {
-    background-color: #9232f2;
+    background-color: #51514f;
     color: white;
     transition: 0.3s;
     transform: scale(1.1);
 }
 
 .first .button1 a {
-    background-color: #eef134;
+    background-color: #ffffff;
     color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
     font-size: 1.2rem;
     cursor: pointer;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
     margin-top: 70px;
     text-decoration: none;
     display: flex;
@@ -159,7 +166,7 @@ div.rightsection {
 }
 
 hr {
-    background-color: #eef134;
+    background-color: #ffffff;
     height: 4px;
     width: 90%;
     border: none;
@@ -170,7 +177,7 @@ hr {
 .second {
     max-width: 87vw;
     margin: auto;
-    background-color: rgb(111, 252, 198);
+    background-color: #51514f;
 
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
@@ -178,16 +185,16 @@ hr {
     border-bottom-right-radius: 70px;
     padding: 60px 20px;
     margin-top: 70px;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 20px;
 }
 
 .second h1 {
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin: 0px 30px;
-    text-shadow: #313129 0px 0px 10px;
-    box-shadow: #313129 0px 0px 10px;
-    background-color: rgb(0, 255, 255);
+    text-shadow: #ffffff 0px 0px 10px;
+    box-shadow: white 0px 0px 10px;
+    background-color: rgb(110, 125, 125);
 
     border-radius: 80px;
     padding: 10px;
@@ -208,7 +215,7 @@ hr {
     margin: 0px 80px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -221,7 +228,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .second .vertical-2 {
@@ -239,7 +246,7 @@ hr {
     margin: 0px 30px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -252,7 +259,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .second .vertical-3 {
@@ -269,7 +276,7 @@ hr {
     margin: 0px 80px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(236, 236, 236);
     /* justify-content: space-around; */
 }
 
@@ -282,7 +289,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .second .vertical-4 {
@@ -299,7 +306,7 @@ hr {
     margin: 0px 30px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -312,7 +319,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .second img.image-top-1:hover {
@@ -342,7 +349,7 @@ hr {
 .third {
     max-width: 92vw;
     margin: auto;
-    background-color: rgb(87, 186, 213);
+    background-color: #51514f;
 
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
@@ -350,16 +357,16 @@ hr {
     border-bottom-right-radius: 70px;
 
     margin-top: 60px;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 20px;
 }
 
 .third h1 {
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin: 80px 60px;
-    text-shadow: #313129 0px 0px 10px;
-    box-shadow: #313129 0px 0px 10px;
-    background-color: rgb(0, 255, 255);
+    text-shadow: #ffffff 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
+    background-color: rgb(110, 125, 125);
 
     border-radius: 80px;
     padding: 10px;
@@ -381,7 +388,7 @@ hr {
     margin: 0px 70px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -394,7 +401,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .third .vertical-2 {
@@ -411,7 +418,7 @@ hr {
     margin: 0px 50px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -424,7 +431,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .third .vertical-3 {
@@ -441,7 +448,7 @@ hr {
     margin: 0px 70px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -454,7 +461,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .third .vertical-4 {
@@ -471,7 +478,7 @@ hr {
     margin: 0px 50px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -484,7 +491,7 @@ hr {
     width: 360px;
     height: auto;
     border-radius: 20px;
-    box-shadow: #eef134 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
 }
 
 .third img.image-top-1:hover {
@@ -518,21 +525,21 @@ hr {
 }
 
 .first .button2 a:hover {
-    background-color: #9232f2;
+    background-color: #51514f;
     color: white;
     transition: 0.3s;
     transform: scale(1.1);
 }
 
 .first .button2 a {
-    background-color: #eef134;
+    background-color: #ffffff;
     color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
     font-size: 1.2rem;
     cursor: pointer;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
     margin-top: 70px;
     text-decoration: none;
     display: flex;
@@ -545,15 +552,14 @@ hr {
     height: 18px;
 }
 
-
 .footer {
-    background-color: #eef134;
+    background-color: #ffffff;
     color: black;
     text-align: center;
     padding: 10px 0;
     margin-top: 80px;
     /* border-radius: 20px; */
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 20px;
 }
 
 
@@ -589,7 +595,7 @@ hr {
 }
 
 .bottom-navbar a {
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px;
     border-radius: 50%;
@@ -599,18 +605,18 @@ hr {
 /* Hover effect */
 .bottom-navbar a:hover {
     background: rgba(146, 50, 242, 0.2);
-    color: #9232f2;
+    color: #0e0e0f;
 }
 
 /* Active link */
 .bottom-navbar a.active {
-    background: #9232f2;
+    background: #3f3f40;
     color: white;
 }
 
 
 .bottom-navbar .nav-link-1 {
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px;
     border-radius: 50%;
@@ -639,16 +645,10 @@ hr {
 }
 
 
-#text {
-    font-size: 1.2rem;
-    color: black;
-    margin: 20px 50px;
-}
-
 .fourth {
     max-width: 92vw;
     margin: auto;
-    background-color: rgb(144, 178, 241);
+    background-color: #51514f;
 
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
@@ -656,16 +656,16 @@ hr {
     border-bottom-right-radius: 70px;
 
     margin-top: 60px;
-    box-shadow: #313129 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 20px;
 }
 
 .fourth h1 {
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin: 80px 60px;
-    text-shadow: #313129 0px 0px 10px;
-    box-shadow: #313129 0px 0px 10px;
-    background-color: rgb(0, 255, 255);
+    text-shadow: #ffffff 0px 0px 10px;
+    box-shadow: #ffffff 0px 0px 10px;
+    background-color: rgb(110, 125, 125);
 
     border-radius: 80px;
     padding: 10px;
@@ -677,7 +677,7 @@ hr {
     margin: 0px 70px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -685,7 +685,7 @@ hr {
     margin: 0px 70px;
     text-align: left;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     /* justify-content: space-around; */
 }
 
@@ -695,14 +695,9 @@ hr {
 }
 
 .nav-link-contact {
-    color: #d71de8;
+    color: #ffffff;
     font-size: 1.5rem;
 
     transition: 0.3s;
     text-decoration: none;
-}
-
-body.dark {
-  background-color: #121212;
-  color: white;
 }

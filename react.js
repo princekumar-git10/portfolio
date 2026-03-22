@@ -1,4 +1,6 @@
 
+localStorage.setItem("theme", "dark");
+
 window.addEventListener("load", () => {
   if (window.location.hash) {
     history.replaceState(null, null, " ");
