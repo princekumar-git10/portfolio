@@ -46,3 +46,11 @@ async function loadMyText() {
 
 // Run the function when the page is ready
 window.addEventListener('DOMContentLoaded', loadMyText);
+
+
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.top-navbar');
+
+menu.addEventListener('click', function () {
+  menuLinks.classList.toggle('active');
+});
