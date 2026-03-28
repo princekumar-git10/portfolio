@@ -90,7 +90,7 @@
     }
 
     nav ul li {
-        padding: 0 17px;
+        padding: 0 16px;
     }
 
     nav ul li a {
@@ -174,7 +174,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 1px;
+        flex-direction: column;
+        order: 1;
     }
 
     .first .button1 a:hover {
@@ -202,8 +204,10 @@
 
     .first .button2 {
         display: flex;
+        flex-direction: column;
+        order:2;
         gap: 10px;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     .first .button2 a:hover {
@@ -240,24 +244,37 @@
         margin-left: 20px;
     }
 
-    div.rightsection {
-        width: 50%;
+    .image-wrapper {
+        position: relative;
+        display: inline-block;
+        margin-top: 20px ;
     }
 
-    .rightsection img {
-        display: none;
+     .hero-image {
+        justify-content: center;
+        align-items: center;
+        display: block;
         width: 80%;
-        margin-left: 90px;
+        
+        margin-left: 50px;
+        margin-bottom: 5px;
+        height: auto;
+        filter: drop-shadow(0 0 10px rgba(35, 255, 64, 0.8));
     }
 
-    hr {
+    .bottom-line {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        
         background-color: #ffffff;
-        height: 4px;
+        
+        z-index: -1;
 
-        width: 90%;
-        border: none;
-        margin: 70px auto;
-
+        width: 100%;
     }
 
     .second {
@@ -975,7 +992,7 @@
 
         z-index: -1;
 
-        width: 56.5rem;
+        width: 70rem;
         border: none;
     }
 
